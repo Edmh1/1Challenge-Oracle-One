@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <img id="logo" src="imagenes/Vector.png">
+
+    <textarea placeholder="Ingrese el texto aquí" id="input"></textarea>
+
+    <div class="caja">
+        <img id="muñeco" src="imagenes/Muñeco.png">
+        <h3 class="subtitulo3">Ningún mensaje fue encontrado</h3>
+        <p id="frase">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+    <div id="apartadoDeAlerta">
+        <img id="alerta" src="imagenes/alerta.png">
+        <p id="textoAlerta">Solo letras minúsculas y sin acentos</p>
+    </div>
+    <div class="botones">
+        <button id="encriptar" onclick="encriptarTexto()">Encriptar</button>
+        <button id="desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+    </div>
+
+    <script>
+        function encriptarTexto() {
+            var input = document.getElementById("input").value;
+            var output = "";
+
+            for (var i = 0; i < input.length; i++) {
+                var letra = input.charAt(i);
+
+                switch (letra) {
+                    case "a":
+                        output += "ai";
+                        break;
+                    case "e":
+                        output += "enter";
+                        break;
+                    case "i":
+                        output += "imes";
+                        break;
+                    case "o":
+                        output += "ober";
+                        break;
+                    case "u":
+                        output += "ufat";
+                        break;
+                    default:
+                        output += letra;
+                }
+            }
+
+            document.getElementById("frase").innerText = output;
+        }
+
+        function desencriptarTexto() {
+            var input = document.getElementById("input").value;
+            var output = "";
+
+            for (var i = 0; i < input.length; i++) {
+                var letra = input.charAt(i);
+
+                switch (letra) {
+                    case "ai":
+                        output += "a";
+                        break;
+                    case "enter":
+                        output += "e";
+                        break;
+                    case "imes":
+                        output += "i";
+                        break;
+                    case "ober":
+                        output += "o";
+                        break;
+                    case "ufat":
+                        output += "u";
+                        break;
+                    default:
+                        output += letra;
+                }
+            }
+
+            document.getElementById("frase").innerText = output;
+        }
+    </script>
+</body>
+</html>

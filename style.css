@@ -25,32 +25,46 @@ header{
 
 }
 
+.informacion{
+    position: absolute;
+    left: 15%;
+    bottom: 22%;
+}
+
 .botones{
     width: 50%;
     height: 10%;
     position: absolute;
-    left: 15%;
+    left: 14%;
     bottom: 10%;
 }
 
 #encriptar{
-    margin-right: 5%;
+    margin-right: 3%;
     width: 20em;
     height: 70%;
     padding: 10px;
     border-radius: 15px;
     border-width: 3px;
     border-color: aqua;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background: hwb(180 0% 15%);
 }
 
 #desencriptar{
-    margin-right: 10%;
+    margin-right: 3%;
     width: 20em;
     height: 70%;
     padding: 10px;
     border-radius: 15px;
     border-width: 3px;
     border-color: aqua;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background: hwb(180 0% 15%);
 }
 
 

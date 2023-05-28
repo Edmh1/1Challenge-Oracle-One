@@ -8,21 +8,60 @@ header{
 }
 
 .input{
-    width: 70%;
-    margin: 5em;
+    width: 50%;
+    margin: 2em;
+    position: absolute;
+    left: 10%;
+    right: 50%;
 }
 
 #input{
     width: 60%;
     height: 2em;
     position: relative;
-    left: 10%;
+    left: 5%;
 
     padding: 10px 10px 0 10px;
     font-size: 17px;
     font-style: italic;
     font-weight: bold;
 
+}
+
+.respuesta{
+    width: 40%;
+    height: 50%;
+    padding: 10px;
+
+    position: absolute;
+    left: 55%;
+    right: 5%;
+    top: 25%;
+
+    text-align: center;
+    border: 3px solid aqua;
+    background: aqua;
+    border-radius: 20px;
+}
+
+.respuesta img{
+    width: 50%;
+    padding: 2%;
+}
+
+.respuesta h2{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    font-size: 120%;
+    font-weight: bold;
+
+}
+.respuesta h6{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    font-size: 80%;
 }
 
 .informacion{

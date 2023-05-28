@@ -8,12 +8,12 @@ header{
 }
 
 .input{
-    width: auto;
+    width: 70%;
     margin: 5em;
 }
 
 #input{
-    width: 45%;
+    width: 60%;
     height: 2em;
     position: relative;
     left: 10%;
@@ -24,5 +24,35 @@ header{
     font-weight: bold;
 
 }
-  
+
+.botones{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+}
+
+#encriptar{
+    margin-right: 5%;
+    width: 20em;
+    height: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: aqua;
+}
+
+#desencriptar{
+    margin-right: 10%;
+    width: 20em;
+    height: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: aqua;
+}
+
+
+
   

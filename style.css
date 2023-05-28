@@ -4,5 +4,25 @@ body{
 
 header{
     width: auto;
-    margin: 3em 10em 1em 4em;
+    margin: 3em 20em 1em 4em;
 }
+
+.input{
+    width: auto;
+    margin: 5em;
+}
+
+#input{
+    width: 45%;
+    height: 2em;
+    position: relative;
+    left: 10%;
+
+    padding: 10px 10px 0 10px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+  
+  

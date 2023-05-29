@@ -115,6 +115,23 @@ main{
     background: hwb(180 0% 15%);
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+}
 
+footer img{
+    position: relative;
+    width: 5%;
+    height: 5%;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    
+}
+footer .copyright{
+    position: relative;
+    font-size: 90%;
+    font-weight: bold;
+}
 
   
